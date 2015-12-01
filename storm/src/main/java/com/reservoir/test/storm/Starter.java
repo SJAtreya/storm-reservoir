@@ -1,4 +1,4 @@
-package com.virtusa.codefest.storm;
+package com.reservoir.test.storm;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -14,8 +14,8 @@ import backtype.storm.topology.BoltDeclarer;
 import backtype.storm.topology.TopologyBuilder;
 import backtype.storm.utils.Utils;
 
-import com.virtusa.codefest.data.MySQLCM;
-import com.virtusa.codefest.storm.util.Util;
+import com.reservoir.test.data.MySQLCM;
+import com.reservoir.test.storm.util.Util;
 
 public class Starter {
 	private final static String MAIN_RESERVOIR = "Main Reservoir";

@@ -1,4 +1,4 @@
-package com.virtusa.codefest.storm.util;
+package com.reservoir.test.storm.util;
 
 public class Util {
 

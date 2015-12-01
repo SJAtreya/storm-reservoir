@@ -1,9 +1,9 @@
-package com.virtusa.codefest.storm;
+package com.reservoir.test.storm;
 
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.virtusa.codefest.storm.util.Util;
+import com.reservoir.test.storm.util.Util;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
