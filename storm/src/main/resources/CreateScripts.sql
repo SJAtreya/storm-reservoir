@@ -1,0 +1,21 @@
+create database reservoir;
+use reservoir;
+create table master(id bigint, hubs varchar(100));
+insert into master values (1,'Sub-1');
+insert into master values (2,'Sub-2');
+insert into master values (3,'Sub-3');
+insert into master values (4,'Sub-4');
+insert into master values (5,'Sub-5');
+insert into master values (6,'Sub-6');
+commit;
+
+create table links (id bigint, source bigint, destination bigint);
+insert into links values (1, 0, 1);
+insert into links values (2, 0, 2);
+insert into links values (3, 0, 3);
+insert into links values (4, 1, 4);
+insert into links values (4, 2, 4);
+insert into links values (4, 1, 5);
+insert into links values (4, 2, 5);
+insert into links values (4, 3, 6);
+commit;
